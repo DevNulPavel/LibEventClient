@@ -1,0 +1,80 @@
+# XCode noise
+PLBlocks.framework/*
+build/
+*.pbxuser
+*.mode1v3
+*.pyc
+*~.nib/
+*.perspective
+*.perspectivev3
+
+# old school
+.svn
+
+# osx noise
+.DS_Store
+
+# win noise
+Thumbs.db
+
+*.xcworkspace/
+xcuserdata/
+
+# eclipce project files
+.cproject
+.project
+
+#project file for KDevelop4
+*.kdev4
+.kdev_include_paths
+*.kate-swp
+*.gch
+
+#project files for netBeans
+nbproject/
+
+.idea
+
+#dolphin file manager
+.directory
+
+#tools binaries
+project/tools/atlases/converter/p2j
+project/tools/atlases/packer/TexturePacker
+
+# GUIviewer
+project/GuiViewStatic*
+project/stderr.txt
+
+# SymbolEditor
+project/SymbolEditor.app
+
+# MapEditor
+project/mapedt.app
+project/mapedit.app
+
+project/tools/packs/putils.pyc
+project/tools/packs/pathConfig.pyc
+
+# Qt Creator
+*.creator.user
+*.user
+mhouse_xgen.config
+mhouse_xgen.creator
+mhouse_xgen.includes
+mhouse_xgen.files
+*.autosave
+
+project/src/common.cpp
+
+# emscripten
+project/targets/Emscripten/node_modules/
+project/targets/Emscripten/gulp-cmake.js
+
+# Звуки (у каждой платформы свои)
+project/res/sounds
+*.config
+*.creator
+*.files
+*.includes
+project/res/res
